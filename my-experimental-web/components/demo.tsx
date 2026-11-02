@@ -38,7 +38,7 @@ export default function Demo() {
     >
       {/* Konten Halaman Utama Setelah Preloader Selesai */}
       <main className="min-h-screen bg-[#0e0c0a] text-[#efe6d6] p-12">
-        <h1 className="text-4xl font-serif">Selamat Datang di Web Eksperimental Anda!</h1>
+        <h1 className="text-4xl font-serif">Terimakasih Crawla, Kamu Artist Sepanjang masa!.</h1>
       </main>
     </OldMastersPreloader>
   )
