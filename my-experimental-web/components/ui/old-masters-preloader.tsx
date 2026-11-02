@@ -629,7 +629,11 @@ export default function OldMastersPreloader({
   const eyebrowRef = React.useRef<HTMLDivElement | null>(null)
   const lightRef = React.useRef<HTMLCanvasElement | null>(null)
 
-  const [uid] = React.useState(() => "om" + (omUid++).toString(36) + Math.random().toString(36).slice(2, 7))
+  const [uid, setUid] = React.useState("om-preload")
+
+React.useEffect(() => {
+  setUid("om" + Math.random().toString(36).slice(2, 9))
+}, [])
   const [phase, setPhase] = React.useState(skipIntro ? "landing" : "load")
   const [up, setUp] = React.useState(false)
   const [instant, setInstant] = React.useState(skipIntro)
