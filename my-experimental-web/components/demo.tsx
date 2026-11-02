@@ -23,9 +23,9 @@ export default function Demo() {
     <OldMastersPreloader
       key={mountKey}
       tone={tone}
-      wordmark="Arcadia"
+      wordmark="Awigya"
       scriptInitial={true}
-      tagline="Your craft. Your name. Your rules."
+      tagline="Crawla ~ Zora."
       eyebrow="Experimental Web · MMXXVI"
       brand="A."
       figures={[
