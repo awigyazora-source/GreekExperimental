@@ -381,10 +381,10 @@ export default function Demo() {
     <OldMastersPreloader
       key={mountKey}
       tone={tone}
-      wordmark="Arcadia"
+      wordmark="Awigya"
       scriptInitial={true}
-      tagline="Your craft. Your name. Your rules."
-      eyebrow="Experimental Web · MMXXVI"
+      tagline="Zora-Crawla"
+      eyebrow="VIOLENCE DISTRICT · MMXXVI"
       brand="A."
       figures={[
         { src: APOLLO_UNSPLASH, alt: "The Apollo Belvedere", x: 58, y: 100, h: 84, depth: 1 },
@@ -398,7 +398,7 @@ export default function Demo() {
         <header className="border-b border-[#4a4336]/40 px-6 py-5 md:px-12 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <Sparkles className="w-5 h-5 text-[#d9b25c]" />
-            <span className="font-serif italic text-xl tracking-wide">Arcadia Experimental Lab</span>
+            <span className="font-serif italic text-xl tracking-wide">Crawla Experimental Lab</span>
           </div>
 
           <div className="flex items-center gap-3">
